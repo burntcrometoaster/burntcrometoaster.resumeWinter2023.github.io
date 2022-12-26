@@ -227,6 +227,7 @@ footer {
     background-position: bottom;
     background-attachment: fixed;
     background-size: contain;
+    background-repeat: no-repeat;
     overflow: hidden;
     background-image: url("ResumeAssets/2023Winter/01MTstark.png");
 }
@@ -238,4 +239,14 @@ footer {
     background-size: cover;
     background-attachment: fixed;
     background-image: url("ResumeAssets/2023Winter/02MTstark.JPG");
+}
+#treeFrog {
+    width: 90%;
+    padding: 5%;
+    height: 150px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("ResumeAssets/2023Winter/treeFrog.JPEG");
 }
