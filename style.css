@@ -157,14 +157,18 @@ nav a {
     background-color: #ffffff;
 }
 #contact {
+    max-width: 1200px;	
     background-color: #6e8354;
 }
+.row {
+    margin: 0 auto;
+    max-width: 500px;
+}
 .row:after {
-   
     content: "";
     display: table;
     clear: both;
-  }
+}
 .column {
     width: 46%;
     margin: 2%;
@@ -218,11 +222,7 @@ nav a {
 ul {
     padding: 2%;
 }
-#MTstarkfive {
-    background-attachment: fixed;
-    background-size: cover;
-    background-image: url("ResumeAssets/2023Winter/05MTstark.JPG");
-}
+
 footer {
     background-position: bottom;
     background-attachment: fixed;
@@ -248,5 +248,5 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: url("ResumeAssets/2023Winter/treeFrog.JPEG");
+    background-image: url("ResumeAssets/2023Winter/04MTstark.JPG");
 }
